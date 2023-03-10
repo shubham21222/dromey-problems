@@ -1,0 +1,5 @@
+print("enter binary number: ",end="")
+bum=input()
+onum=int(bum,2)
+onum= oct(onum)
+print("eqvialent octal number: ",onum[2:])
